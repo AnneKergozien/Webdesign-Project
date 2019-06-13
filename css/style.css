@@ -1,0 +1,166 @@
+ @charset "UTF-8";
+
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.container-fluid {
+    padding:0;
+    padding-right:0; 
+
+}
+
+.separator {
+    height: 3px;
+    width: 5%;
+    border: none;
+    box-shadow: none;
+    background-color: #801513; 
+}
+
+/*header*/
+
+.header{
+background-color: #801513;
+height: 70px;
+line-height: 70px;
+}
+
+.logo {
+color: #ffffff;
+letter-spacing: 1px;
+float: left;
+font-family: 'Homemade Apple', cursive;
+}
+
+.menu {
+float: right;
+color: #ffffff;
+margin-right: 20px;
+}
+
+.menu a {
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+color: #FF7573;
+
+}
+
+/*bannière */
+
+.banner {
+    width: 100%;
+    max-width:100%;
+}
+
+.ban {
+    width: 100%;
+    max-width:100%;
+    position: relative;
+}
+
+.ban img {
+    width: 100%;
+    max-width:100%;
+    height:auto;
+    
+}
+
+.inner-banner {
+    position: absolute;
+    top: 32%;
+    left:0;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1 {
+    color: #ffffff;
+    text-shadow: 1px 1px 20px #000000;
+    font-family: 'Homemade Apple', sans-serif;
+    font-size: 300%;
+}
+
+.inner-banner .btn-custom {
+    background-color: #801513;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 125%;
+    margin-top: 30px;
+}
+
+.inner-banner .btn-custom:hover {
+    color: #FF7573;
+
+}
+
+/* accueil */
+
+#accueil {
+    text-align: center;
+    padding-top: 5%; 
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+}
+
+
+.accueil article {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.accueil article h3 {
+    text-align: center;
+}
+
+.accueil article p {
+    text-align: center;
+}
+.accueil article img {
+    padding: 15px;
+    width: 400px;
+
+}
+
+/* menu */
+
+#menu {
+    text-align: center;
+    padding-top: 5%; 
+}
+
+.menu div h3 {
+    text-align: center;
+    color: #000000;
+    font-family:'Homemade Apple', cursive;
+    padding: 30px;
+}
+
+.menu div p {
+    text-align: center;
+    color: #000000;
+}
+.menu img {
+    padding: 15px;
+    width: 350px;
+}
+
+.menu .btn-secondary {
+    background-color: #801513;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 125%;
+}
